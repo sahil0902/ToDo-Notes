@@ -39,7 +39,7 @@ Contributions to improve the application are welcome. Please follow these steps 
 This project is open-sourced under the MIT license.
 
 ## Contact
-- Your Name - [muhammadsahil757@gmail.com](mailto:YourEmail@example.com)
+- Muhammad Sahil - [muhammadsahil757@gmail.com](mailto:YourEmail@example.com)
 
 
 ## Acknowledgements
