@@ -39,8 +39,8 @@ Contributions to improve the application are welcome. Please follow these steps 
 This project is open-sourced under the MIT license.
 
 ## Contact
-- Your Name - [YourEmail@example.com](mailto:YourEmail@example.com)
-- Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+- Your Name - [muhammadsahil757@gmail.com](mailto:YourEmail@example.com)
+
 
 ## Acknowledgements
 - [Bootstrap](https://getbootstrap.com/)
