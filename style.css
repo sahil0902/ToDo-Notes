@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Sans:ital,wght@1,300&family=Open+Sans&family=Poppins&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFCF4;
+    font-family: 'Open Sans', sans-serif;
+}
+.inp {
+    border-radius: 9px;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#List {
+    width: 60%; /* Adjusted width for better layout */
+    margin: auto; /* Center the list */
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    overflow: auto; /* In case of many items */
+}
+
+.lis {
+    display: flex;
+    align-items: center; /* Align checkbox and text */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and text */
+}
+
+input[type="text"] {
+    width: calc(100% - 40px); /* Adjust width for padding */
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#btn {
+    font-size: 16px; /* Larger font for better interaction */
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #4CAF50;
+    color: white;
+}
+.todos{
+    background-color: #FFFFFF;
+}
+.todo_text{
+    text-decoration: line-through;
+}
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    #List {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #List {
+        width: 95%;
+    }
+  
+    input[type="text"], #btn {
+        margin: 10px;
+        border-radius: 10px;
+        
+    }
+}
